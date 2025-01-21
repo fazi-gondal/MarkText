@@ -233,7 +233,7 @@ function Editor() {
           dark={theme === 'dark'}
           disabled={disable}
         />
-
+        {/*
         {typeof content === 'string' && (
           <textarea
             className="textarea"
@@ -247,7 +247,7 @@ function Editor() {
             }}
             value={content}
           />
-        )}
+        )} */}
       </div>
     </main>
   );
