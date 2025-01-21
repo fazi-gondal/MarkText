@@ -223,39 +223,8 @@ function Editor() {
           margin: '88px auto 120px',
         }}
       >
-       /** <div
-          style={{
-            display: 'flex',
-            gap: '12px',
-            marginBottom: 10,
-          }}
-          className="buttonWrap"
-        >
-          <button onClick={() => locale.setLang('vi')}>Vietnamese</button>
-          <button onClick={() => locale.setLang('en')}>English</button>
-          <button onClick={() => locale.setLang('zh_CN')}>Chinese</button>
-          <button type="button" onClick={() => locale.setLang('pt_BR')}>Português</button>
-          <button type="button" onClick={() => locale.setLang('hu_HU')}>Hungarian</button>
-          <button onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}>
-            {theme === 'dark' ? 'Light' : 'Dark'}
-          </button>
-          <button onClick={() => setDisable(!disable)}>{disable ? 'Editable' : 'Readonly'}</button>
-          <button
-            onClick={() => {
-              window.open('https://github.com/hunghg255/reactjs-tiptap-editor-demo', '_blank');
-            }}
-          >
-            Source Demo
-          </button>
-          <button
-            onClick={() => {
-              window.open('https://reactjs-tiptap-editor.vercel.app/', '_blank');
-            }}
-          >
-            Documentation
-          </button>
-        </div> */
-        <RcTiptapEditor
+        
+      <RcTiptapEditor
         ref={refEditor}
           output='html'
           content={DEFAULT}
