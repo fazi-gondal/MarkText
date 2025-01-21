@@ -211,7 +211,7 @@ function Editor() {
     [],
   );
 
-/** return (
+ return (
     <main
       style={{
         padding: '0 20px',
@@ -223,7 +223,7 @@ function Editor() {
           margin: '88px auto 120px',
         }}
       >
-        <div
+       /** <div
           style={{
             display: 'flex',
             gap: '12px',
@@ -254,7 +254,7 @@ function Editor() {
           >
             Documentation
           </button>
-        </div>
+        </div> */
         <RcTiptapEditor
         ref={refEditor}
           output='html'
@@ -281,7 +281,7 @@ function Editor() {
         )}
       </div>
     </main>
-  ); */
+  );
 }
 
 export default Editor;
