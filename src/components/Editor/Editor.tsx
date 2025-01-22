@@ -214,13 +214,12 @@ function Editor() {
  return (
     <main
       style={{
-        padding: '0 20px',
+        padding: '0 5px',
       }}
     >
       <div
         style={{
-          maxWidth: 1024,
-          margin: '88px auto 120px',
+          margin: '10px auto',
         }}
       >
         
